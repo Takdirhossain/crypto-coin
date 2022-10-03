@@ -1,13 +1,26 @@
 .App {
   margin-top: 0px;
   text-align: center;
-  background: linear-gradient(
-    90deg,
-    rgb(29, 178, 248) 0%,
-    rgb(147, 156, 242) 100%
-  );
+  background: #1a1a1a;
+  color: white;
 }
 .main-header{
   margin-top: 0;
   padding-top: 20px;
+}
+.coin-input{
+  border: none;
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+  
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+::placeholder{
+  color: white;
+ margin-left: 50px;
 }
